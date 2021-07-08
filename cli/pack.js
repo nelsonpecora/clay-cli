@@ -1,6 +1,6 @@
 'use strict';
 
-const { getWebpackConfig } = require('../../lib/cmd/pack');
+const { getWebpackConfig } = require('../lib/cmd/pack');
 const log = require('../log').setup({ file: __filename });
 const webpack = require('webpack');
 
